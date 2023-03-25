@@ -6,6 +6,7 @@ import blue from "../Resources/blue.png";
 import lock from "../Resources/lock.png";
 import s2 from "../Resources/s2.png";
 import s3 from "../Resources/s3.png";
+import group from "../Resources/group.png";
 
 export const Home = () => {
   return (
@@ -77,8 +78,19 @@ export const Home = () => {
           <Image src={s3} />
         </Stack>
       </HStack>
-
-      <Stack bg="#0566D4"></Stack>
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Spacer />
+      <Stack bg="#0566D4" p={10}>
+        <Image src={group} />
+      </Stack>
     </Stack>
   );
 }
